@@ -14,6 +14,10 @@
 		049F0E6326778037001B7122 /* BowTiesCoreDataP2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 049F0E6126778037001B7122 /* BowTiesCoreDataP2.xcdatamodeld */; };
 		049F0E6526778041001B7122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049F0E6426778041001B7122 /* Assets.xcassets */; };
 		049F0E6826778041001B7122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F0E6626778041001B7122 /* LaunchScreen.storyboard */; };
+		049F0E712677832A001B7122 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049F0E702677832A001B7122 /* SampleData.plist */; };
+		049F0E74267789D8001B7122 /* ColorAtributeTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F0E73267789D8001B7122 /* ColorAtributeTransformer.swift */; };
+		049F0E782677908B001B7122 /* BowTie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F0E762677908B001B7122 /* BowTie+CoreDataClass.swift */; };
+		049F0E792677908B001B7122 /* BowTie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F0E772677908B001B7122 /* BowTie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		049F0E6426778041001B7122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049F0E6726778041001B7122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049F0E6926778041001B7122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F0E702677832A001B7122 /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		049F0E73267789D8001B7122 /* ColorAtributeTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAtributeTransformer.swift; sourceTree = "<group>"; };
+		049F0E762677908B001B7122 /* BowTie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BowTie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		049F0E772677908B001B7122 /* BowTie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BowTie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 		049F0E4C26778037001B7122 = {
 			isa = PBXGroup;
 			children = (
+				049F0E762677908B001B7122 /* BowTie+CoreDataClass.swift */,
+				049F0E772677908B001B7122 /* BowTie+CoreDataProperties.swift */,
 				049F0E5726778037001B7122 /* BowTiesCoreDataP2 */,
 				049F0E5626778037001B7122 /* Products */,
 			);
@@ -65,7 +75,9 @@
 				049F0E6426778041001B7122 /* Assets.xcassets */,
 				049F0E6626778041001B7122 /* LaunchScreen.storyboard */,
 				049F0E6926778041001B7122 /* Info.plist */,
+				049F0E702677832A001B7122 /* SampleData.plist */,
 				049F0E6126778037001B7122 /* BowTiesCoreDataP2.xcdatamodeld */,
+				049F0E73267789D8001B7122 /* ColorAtributeTransformer.swift */,
 			);
 			path = BowTiesCoreDataP2;
 			sourceTree = "<group>";
@@ -129,6 +141,7 @@
 			files = (
 				049F0E6826778041001B7122 /* LaunchScreen.storyboard in Resources */,
 				049F0E6526778041001B7122 /* Assets.xcassets in Resources */,
+				049F0E712677832A001B7122 /* SampleData.plist in Resources */,
 				049F0E6026778037001B7122 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				049F0E6326778037001B7122 /* BowTiesCoreDataP2.xcdatamodeld in Sources */,
+				049F0E782677908B001B7122 /* BowTie+CoreDataClass.swift in Sources */,
 				049F0E5D26778037001B7122 /* ViewController.swift in Sources */,
+				049F0E74267789D8001B7122 /* ColorAtributeTransformer.swift in Sources */,
+				049F0E792677908B001B7122 /* BowTie+CoreDataProperties.swift in Sources */,
 				049F0E5926778037001B7122 /* AppDelegate.swift in Sources */,
 				049F0E5B26778037001B7122 /* SceneDelegate.swift in Sources */,
 			);
